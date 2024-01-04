@@ -48,6 +48,9 @@ custom_vars:
   location: "Ahingaro Dherai, Swat"
   email: "rae3skhan@gmail.com"
   phone: "+923427711179"
+  custom_vars:
+  profile_photo: "assets/your_photo_filename.jpg"  # Replace with your actual filename
+
 
 # Jekyll plugins
 plugins:
