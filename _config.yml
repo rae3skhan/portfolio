@@ -1,56 +1,25 @@
-# Site settings
-title: Raees Khan - Ethical Hacker
-description: Dynamic and highly motivated Ethical Hacker, ready to excel in cybersecurity.
+theme: jekyll-theme-minimal
 
-# Build settings
-markdown: kramdown
-theme: jekyll-theme-minimal 
+title: Your Site Title
+description: Your site description
 
-# Navigation settings
-menu:
+# Optional: Customize the navigation links
+navbar_links:
   - title: Home
     url: /
   - title: About
     url: /about
-  - title: Skills
-    url: /skills
   - title: Projects
     url: /projects
-  - title: Education
-    url: /education
-  - title: Certifications
-    url: /certifications
   - title: Contact
     url: /contact
 
-# Social settings
-social_icons:
-  - title: LinkedIn
-    url: https://www.linkedin.com/in/engr-raeeskhan/
-    icon: fab fa-linkedin
+# Optional: Add social links
+social_links:
+  - title: GitHub
+    url: https://github.com/yourusername
+  - title: Twitter
+    url: https://twitter.com/yourtwitterhandle
 
-# Exclude from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - _config.yml
-  - CNAME
-  - .github
-  - .vscode
-
-# GitHub Pages settings
-repository: rae3skhan/portfolio  # Replace with your actual repository name
-
-# Customizations
-custom_vars:
-  location: "Ahingaro Dherai, Swat"
-  email: "rae3skhan@gmail.com"
-  phone: "+923427711179"
-  logo: "assets/your_photo_filename.jpg"  # Replace with your photo's filename
-
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+# Optional: Customize additional settings
+# Add any other configurations specific to your site or the minimal theme.
