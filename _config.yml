@@ -1,7 +1,7 @@
 # Site settings
 title: Raees Khan - Ethical Hacker
 description: Dynamic and highly motivated Ethical Hacker, ready to excel in cybersecurity.
-logo: "assets/img/new.jpg"
+logo: assets/img/new.jpg
 
 # Build settings
 markdown: kramdown
@@ -49,7 +49,7 @@ custom_vars:
   location: "Ahingaro Dherai, Swat"
   email: "rae3skhan@gmail.com"
   phone: "+923427711179"
-  profile_photo: "assets/img/new.jpg"  # Replace with your photo's filename
+  
 
 # Plugins
 plugins:
