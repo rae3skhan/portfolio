@@ -4,10 +4,19 @@ description: Dynamic and highly motivated Ethical Hacker, ready to excel in cybe
 
 # Build settings
 markdown: kramdown
-remote_theme: pages-themes/cayman@v0.2.0  # Using the Cayman remote theme
+theme: minimal-mistakes-jekyll
+
+# Minimal Mistakes settings
+minimal_mistakes_skin: default
+minimal_mistakes_sidebar: left
+minimal_mistakes_author: Raees Khan
+minimal_mistakes_right_sidebar: false
+minimal_mistakes_show_excerpts: true
+minimal_mistakes_show_first_image: true
 
 # Navigation settings
 menu:
+  # Sections: add/remove based on your content
   - title: Home
     url: /
   - title: About
@@ -35,25 +44,27 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+  
   - _config.yml
   - CNAME
   - .github
   - .vscode
 
 # GitHub Pages settings
-repository: rae3skhan/portfolio  # Replace with your actual repository name
+repository: rae3skhan/portfolio
 
 # Customizations (optional)
+# You can define custom site-wide variables and use them in your content
+# Example:
 custom_vars:
-  location: "Ahingaro Dherai, Swat"
+  location: "Ahingaro Dherai, Mingora, Swat, 19130"
   email: "rae3skhan@gmail.com"
   phone: "+923427711179"
-  custom_vars:
-  profile_photo: "assets/your_photo_filename.jpg"  # Replace with your actual filename
 
-
-# Jekyll plugins
+# Jekyll plugins (optional)
+# This example includes plugins for RSS feed and SEO optimization
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-remote-theme  # Required for remote themes
+
+# Add additional configurations depending on your projects and content
