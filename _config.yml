@@ -1,0 +1,56 @@
+# Site settings
+title: Raees Khan - Ethical Hacker
+description: Dynamic and highly motivated Ethical Hacker, ready to excel in cybersecurity.
+
+# Build settings
+markdown: kramdown
+remote_theme: pages-themes/cayman@v0.2.0  # Using the Cayman remote theme
+
+# Navigation settings
+menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Skills
+    url: /skills
+  - title: Projects
+    url: /projects
+  - title: Education
+    url: /education
+  - title: Certifications
+    url: /certifications
+  - title: Contact
+    url: /contact
+
+# Social settings
+social_icons:
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/engr-raeeskhan/
+    icon: fab fa-linkedin
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - _config.yml
+  - CNAME
+  - .github
+  - .vscode
+
+# GitHub Pages settings
+repository: rae3skhan/portfolio  # Replace with your actual repository name
+
+# Customizations (optional)
+custom_vars:
+  location: "Ahingaro Dherai, Swat"
+  email: "rae3skhan@gmail.com"
+  phone: "+923427711179"
+
+# Jekyll plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme  # Required for remote themes
