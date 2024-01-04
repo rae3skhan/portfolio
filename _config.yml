@@ -1,7 +1,7 @@
 # Site settings
 title: Raees Khan - Ethical Hacker
 description: Dynamic and highly motivated Ethical Hacker, ready to excel in cybersecurity.
-logo: assets/img/new.jpg
+logo: assets/img/new.jpeg
 
 # Build settings
 markdown: kramdown
