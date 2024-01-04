@@ -4,19 +4,10 @@ description: Dynamic and highly motivated Ethical Hacker, ready to excel in cybe
 
 # Build settings
 markdown: kramdown
-theme: minimal-mistakes-jekyll
-
-# Minimal Mistakes settings
-minimal_mistakes_skin: default
-minimal_mistakes_sidebar: left
-minimal_mistakes_author: Raees Khan
-minimal_mistakes_right_sidebar: false
-minimal_mistakes_show_excerpts: true
-minimal_mistakes_show_first_image: true
+theme: jekyll-theme-minimal
 
 # Navigation settings
 menu:
-  # Sections: add/remove based on your content
   - title: Home
     url: /
   - title: About
@@ -44,27 +35,22 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
-  
   - _config.yml
   - CNAME
   - .github
   - .vscode
 
 # GitHub Pages settings
-repository: rae3skhan/portfolio
+repository: rae3skhan/portfolio  # Replace with your actual repository name
 
-# Customizations (optional)
-# You can define custom site-wide variables and use them in your content
-# Example:
+# Customizations
 custom_vars:
-  location: "Ahingaro Dherai, Mingora, Swat, 19130"
+  location: "Ahingaro Dherai, Swat"
   email: "rae3skhan@gmail.com"
   phone: "+923427711179"
+  profile_photo: "assets/your_photo_filename.jpg"  # Replace with your photo's filename
 
-# Jekyll plugins (optional)
-# This example includes plugins for RSS feed and SEO optimization
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
-# Add additional configurations depending on your projects and content
