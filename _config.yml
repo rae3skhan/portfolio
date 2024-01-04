@@ -1,25 +1,3 @@
+title: Raees khan 
+show_downloads: true  
 theme: jekyll-theme-minimal
-
-title: Your Site Title
-description: Your site description
-
-# Optional: Customize the navigation links
-navbar_links:
-  - title: Home
-    url: /
-  - title: About
-    url: /about
-  - title: Projects
-    url: /projects
-  - title: Contact
-    url: /contact
-
-# Optional: Add social links
-social_links:
-  - title: GitHub
-    url: https://github.com/yourusername
-  - title: Twitter
-    url: https://twitter.com/yourtwitterhandle
-
-# Optional: Customize additional settings
-# Add any other configurations specific to your site or the minimal theme.
