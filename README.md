@@ -41,29 +41,29 @@ A sender generates a hash of their message and sends both the message and its ha
 The receiver verifies the integrity of the message by comparing the received hash with a hash generated from the received message.
 The project also features a "Man in the Middle" section to simulate an attacker altering the message, emphasizing the critical role of hash functions in detecting tampered data.
 
-# [AES Web Encryption Tool](https://github.com/rae3skhan/AES-Web-Encryption-Tool)
+### [AES Web Encryption Tool](https://github.com/rae3skhan/AES-Web-Encryption-Tool)
 
-## Description
+**Description**
 Developed a web application for encrypting and decrypting text using AES encryption, utilizing the CryptoJS library. This project showcases fundamental encryption and decryption techniques, aimed at educational purposes and for those interested in implementing basic security measures in web applications.
 
-## Features
+**Features**
 - **Encryption:** Converts plaintext into ciphertext using AES encryption.
 - **Decryption:** Converts ciphertext back into plaintext.
 - **User Interface:** Features a simple and intuitive web interface for ease of use.
   
   
-# [Digital Signatures](https://github.com/rae3skhan/Digital-Signature) 
+### [Digital Signatures](https://github.com/rae3skhan/Digital-Signature) 
 
-## Description
+**Description**
 This project implements a secure communication system using encryption, decryption, and digital signatures to ensure the confidentiality and integrity of messages. It uses CryptoJS for cryptographic operations and JSEncrypt for handling digital signatures.
 
-## Features
+**Features**
 - **Encryption and Decryption:** Utilizes AES encryption to securely transmit messages.
 - **Digital Signatures:** Ensures the authenticity and integrity of messages using RSA digital signatures.
 - **User Interface:** Simple and intuitive UI for sending and receiving encrypted messages.
 
 
-#  [Authentication System](https://github.com/rae3skhan/Authentication_system)
+### [Authentication System](https://github.com/rae3skhan/Authentication_system)
 
 
 Technologies: Node.js, Passport.js, Google OAuth2
@@ -101,7 +101,7 @@ Implemented key features including login, registration, and Google sign-in funct
 - Analyzed intricate security logs and events, enabling the prompt detection and response to potential security incidents.
 - Demonstrated adept use of cybersecurity tools for threat intelligence and incident response.
 
-## Extracurricular Activities
+### Extracurricular Activities
 
 - Distinguished member of the University Cybersecurity Club.
 - Active participation in prestigious cybersecurity competitions and Capture The Flag (CTF) events, showcasing a commitment to continuous skill refinement.
